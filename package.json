@@ -1,0 +1,39 @@
+{
+  "name": "vue-amplify",
+  "version": "0.0.0",
+  "private": true,
+  "description": "My well-made Vue project",
+  "author": {
+    "name": "thederr",
+    "email": "mathenyderrick@gmail.com"
+  },
+  "scripts": {
+    "serve": "serve dist --single",
+    "build": "poi build",
+    "dev": "poi",
+    "report": "poi build --bundle-report"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^2.3.3",
+    "aws-amplify": "^4.3.18",
+    "install": "^0.13.0",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "promise-polyfill": "^6.0.2",
+    "uuid": "^8.3.2",
+    "vue-router": "^4.0.14",
+    "vuetify": "^2.6.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "serve": "^6.1.0",
+    "vue-cli-plugin-vuetify": "~2.4.8",
+    "vuetify-loader": "^1.7.0"
+  },
+  "license": "MIT",
+  "productName": "vue-amplify"
+}
